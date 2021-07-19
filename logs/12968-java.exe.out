@@ -1,0 +1,51 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1101milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1101"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59129"}
+{"logLevel":"info","message":"Listening on port:59129"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.enterText' and 'org.example.StepImplementation.enterText'"}
+{"logLevel":"debug","message":"Found User enters {} in {} textBox in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.selectState' and 'org.example.StepImplementation.selectState'"}
+{"logLevel":"debug","message":"Found User selects {} from State DropDown in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.hosting' and 'org.example.StepImplementation.hosting'"}
+{"logLevel":"debug","message":"Found User chooses {} radioButton from hosting in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.submitForm' and 'org.example.StepImplementation.submitForm'"}
+{"logLevel":"debug","message":"Found User submits the Input form in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.testPage' and 'org.example.StepImplementation.testPage'"}
+{"logLevel":"debug","message":"Found User is on the testPage in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser selects {} from State DropDown : public void selectState(String state)"}
+{"logLevel":"debug","message":"\tUser is on the testPage : public void testPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUser enters {} in {} textBox : public void enterText(String text, String relatedTextBox)"}
+{"logLevel":"debug","message":"\tUser chooses {} radioButton from hosting : public void hosting(String YesOrNo)"}
+{"logLevel":"debug","message":"\tUser submits the Input form : public void submitForm()"}
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 46149
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 08, 2021 10:26:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'User is on the testPage' using 'class org.example.StepImplementation.testPage"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User enters {} in {} textBox' using 'class org.example.StepImplementation.enterText"}
+{"logLevel":"debug","message":"Executing 'User chooses {} radioButton from hosting' using 'class org.example.StepImplementation.hosting"}
+{"logLevel":"debug","message":"Executing 'User selects {} from State DropDown' using 'class org.example.StepImplementation.selectState"}
+{"logLevel":"debug","message":"Executing 'User submits the Input form' using 'class org.example.StepImplementation.submitForm"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
